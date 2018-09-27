@@ -2,12 +2,14 @@ package HelloWorld;
 
 public class HelloGit {
 
-	void printHelloWorld(){
-		System.out.println("Hello world!\n");
+	static void printHelloWorld(int n){
+		for(int i = 0; i < n; i++) {
+			System.out.println("Hello world!\n");
+		}
 	}
 	
 	public static void main(String[] args) {
-		printHelloWorld();
+		printHelloWorld(3);
 	}
 
 }
